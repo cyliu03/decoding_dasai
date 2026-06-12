@@ -109,7 +109,7 @@ python code/server.py
 可选参数：端口号（默认 8765）
 
 ```bash
-python code/server.py 9000
+python code/server.py
 ```
 
 ## 实验结果
@@ -136,8 +136,8 @@ python code/server.py 9000
 
 - **被试数**：3 名
 - **每个被试 run 数**：4 个
-- **每个 run 的 trial 数**：约 40 个
-- **总 trial 数**：约 480 个
+- **每个 run 的 trial 数**： 45 个
+- **总 trial 数** 540 个
 - **分类类别**：13 个字母类别（E, I, J, L, M, N, O, P, R, S, T, V, X）
 - **刺激材料**：触觉几何形状物体，按首字母分为 13 类
 - **数据格式**：BIDS 衍生格式，包含 LSS beta NIfTI 图像和事件 TSV 文件
