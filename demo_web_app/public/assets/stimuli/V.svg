@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="V">
+  <rect width="240" height="180" rx="18" fill="#eaf6df"/>
+  <g fill="none" stroke="#1f2a20" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 47L70 133"/>
+    <path d="M120 47l50 86"/>
+    <path d="M70 133c14 16 86 16 100 0"/>
+    <path d="M88 128c22 8 42 8 64 0" stroke-dasharray="6 6"/>
+  </g>
+  <text x="18" y="154" fill="#1f2a20" font-family="Arial, sans-serif" font-size="22" font-weight="700">V</text>
+</svg>

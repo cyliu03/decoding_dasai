@@ -1,0 +1,24 @@
+{
+  "model_name": "Calibrated LinearSVC (LSS beta)",
+  "n_train_samples": 480,
+  "n_features": 30000,
+  "feature_k": 5000,
+  "svm_c": 1.0,
+  "n_classes": 13,
+  "classes": [
+    "E",
+    "I",
+    "J",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "R",
+    "S",
+    "T",
+    "V",
+    "X"
+  ],
+  "has_predict_proba": true
+}

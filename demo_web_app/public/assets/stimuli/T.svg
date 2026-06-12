@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="T">
+  <rect width="240" height="180" rx="18" fill="#eaf6df"/>
+  <g fill="none" stroke="#1f2a20" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="115" cy="49" rx="20" ry="8"/>
+    <path d="M95 49v54c0 6 9 10 20 10s20-4 20-10V49"/>
+    <ellipse cx="115" cy="103" rx="20" ry="8"/>
+    <path d="M77 94l64 37"/>
+    <path d="M96 70l64 37"/>
+    <ellipse cx="87" cy="82" rx="12" ry="24" transform="rotate(-60 87 82)"/>
+    <ellipse cx="151" cy="119" rx="12" ry="24" transform="rotate(-60 151 119)"/>
+    <path d="M135 79l33 19"/>
+  </g>
+  <text x="18" y="154" fill="#1f2a20" font-family="Arial, sans-serif" font-size="22" font-weight="700">T</text>
+</svg>

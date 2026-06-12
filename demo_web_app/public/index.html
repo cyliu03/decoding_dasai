@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>触觉 fMRI 脑解码演示</title>
+    <link rel="stylesheet" href="/styles.css?v=line-ui-20260612" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">Tactile fMRI Decoder</span>
+          <h1>触觉形状脑解码演示</h1>
+        </div>
+        <div class="topbar-meta" aria-label="项目状态">
+          <span>13 类刺激物</span>
+          <span>Top-k 输出</span>
+          <span>LSS beta</span>
+        </div>
+      </header>
+
+      <section class="decoder-grid">
+        <aside class="stimulus-panel panel">
+          <div class="panel-heading">
+            <span class="eyebrow">Stimuli</span>
+            <h2>刺激物</h2>
+          </div>
+          <div id="stimulusGrid" class="stimulus-grid" aria-label="刺激物选择"></div>
+        </aside>
+
+        <section class="stage-panel panel">
+          <div class="stage-heading">
+            <div>
+              <span class="eyebrow">Session</span>
+              <h2>闭眼触摸任务</h2>
+            </div>
+            <div id="scanStatus" class="scan-status">等待刺激物</div>
+          </div>
+
+          <div class="scanner-stage">
+            <img id="touchScene" class="touch-scene" alt="当前触摸解码场景" />
+            <div class="stage-overlay" aria-hidden="true">
+              <img id="activeStimulus" class="active-stimulus" alt="" />
+              <div class="model-core">
+                <span class="core-label">Decoder</span>
+                <span class="core-meta">LSS beta → ranking</span>
+              </div>
+            </div>
+            <div class="signal-stream" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+
+          <div class="control-strip">
+            <button id="decodeButton" class="decode-button" type="button">
+              <span class="button-icon" aria-hidden="true"></span>
+              <span>启动解码</span>
+            </button>
+          </div>
+        </section>
+
+        <aside class="result-panel panel">
+          <div class="panel-heading">
+            <span class="eyebrow">Output</span>
+            <h2 id="predictionTitle">未解码</h2>
+          </div>
+
+          <div class="prediction-card">
+            <img id="predictionImage" alt="预测类别图像" />
+            <div>
+              <div id="predictionClass" class="prediction-class">--</div>
+              <div id="predictionMeta" class="prediction-meta">选择刺激物后开始</div>
+            </div>
+          </div>
+
+          <div id="probabilityList" class="probability-list"></div>
+
+          <div id="metricsPanel" class="metrics-panel">
+            <div><span>识别率</span><strong id="metricTop1">11.67%</strong></div>
+            <div><span>候选范围</span><strong id="metricTop3">41.25%</strong></div>
+            <div><span>覆盖范围</span><strong id="metricTop5">80.21%</strong></div>
+          </div>
+        </aside>
+      </section>
+    </main>
+    <script src="/app.js?v=line-ui-20260612"></script>
+  </body>
+</html>

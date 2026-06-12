@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="S">
+  <rect width="240" height="180" rx="18" fill="#eaf6df"/>
+  <g fill="none" stroke="#1f2a20" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M45 91l75-33 75 33-75 33z"/>
+    <path d="M120 58c15 17 22 28 22 33s-7 16-22 33"/>
+    <path d="M120 58c-15 17-22 28-22 33s7 16 22 33"/>
+    <path d="M45 91h150"/>
+    <ellipse cx="120" cy="91" rx="19" ry="29"/>
+  </g>
+  <text x="18" y="154" fill="#1f2a20" font-family="Arial, sans-serif" font-size="22" font-weight="700">S</text>
+</svg>

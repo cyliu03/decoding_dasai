@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="J">
+  <rect width="240" height="180" rx="18" fill="#eaf6df"/>
+  <g fill="none" stroke="#1f2a20" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="120" cy="55" rx="22" ry="8"/>
+    <path d="M98 55v28c0 5 10 9 22 9s22-4 22-9V55"/>
+    <ellipse cx="120" cy="83" rx="22" ry="8"/>
+    <ellipse cx="120" cy="104" rx="31" ry="10"/>
+    <path d="M89 104v30c0 7 14 12 31 12s31-5 31-12v-30"/>
+    <ellipse cx="120" cy="134" rx="31" ry="10"/>
+    <path d="M103 92v12M137 92v12"/>
+  </g>
+  <text x="18" y="154" fill="#1f2a20" font-family="Arial, sans-serif" font-size="22" font-weight="700">J</text>
+</svg>

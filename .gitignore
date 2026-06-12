@@ -1,0 +1,31 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files (not for GitHub)
+*.nii
+*.nii.gz
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/

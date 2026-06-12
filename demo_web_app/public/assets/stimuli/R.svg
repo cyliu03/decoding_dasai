@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="R">
+  <rect width="240" height="180" rx="18" fill="#eaf6df"/>
+  <g fill="none" stroke="#1f2a20" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 40l45 26 16 51-32 35H91l-32-35 16-51z"/>
+    <path d="M75 66l45 24 45-24"/>
+    <path d="M120 90v62"/>
+    <path d="M59 117l61-27 61 27"/>
+    <path d="M91 152l29-62 29 62"/>
+    <path d="M75 66l16 86M165 66l-16 86"/>
+  </g>
+  <text x="18" y="154" fill="#1f2a20" font-family="Arial, sans-serif" font-size="22" font-weight="700">R</text>
+</svg>
